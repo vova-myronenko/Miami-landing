@@ -30,12 +30,15 @@
   &__link {
     text-decoration: none;
     color: #fff;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__phone-number {
     position: relative;
     height: 56px;
-    // width: 128px;
     margin-top: 16px;
     color: #fff;
     font-size: 12px;

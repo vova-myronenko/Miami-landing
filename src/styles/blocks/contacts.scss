@@ -60,6 +60,11 @@
 
   &__info-box {
     margin-bottom: 24px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -108,6 +113,7 @@
     border: none;
     color: #fff;
     box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+    cursor: pointer;
     transition: 0.3s;
     transition-property: box-shadow, transform, background-color;
     
