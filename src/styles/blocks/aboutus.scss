@@ -22,8 +22,13 @@
     }
   }
 
-  &__heading-blue {
+  &__heading-link {
     color: $blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__article {
